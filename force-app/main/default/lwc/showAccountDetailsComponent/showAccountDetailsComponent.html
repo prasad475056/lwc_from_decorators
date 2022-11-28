@@ -1,0 +1,7 @@
+<template>
+    <template for:each = {accountRecords.data} for:item="acc"> 
+        <lightning-card key ={acc.Name} icon-name="standard:account">
+            <p> {acc.Name}</p>
+        </lightning-card>
+    </template>
+</template>

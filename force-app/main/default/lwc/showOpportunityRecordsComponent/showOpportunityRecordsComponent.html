@@ -1,0 +1,7 @@
+<template>
+    <template for:each={getAllOppRecords.data} for:item="oppty">
+        <lightning-card key={oppty.Name} icon-name="standard:account"> 
+            <p>{oppty.Name}</p>
+        </lightning-card>
+    </template>
+</template>

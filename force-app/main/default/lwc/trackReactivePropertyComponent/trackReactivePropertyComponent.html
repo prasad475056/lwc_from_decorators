@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="reactive propertie"
+                    icon-name="standard:account"
+                    valiue ={customMessage}>
+                    <div>
+                        <lightning-input label="show custom message" 
+                                        placeholder="reactive property"
+                                        value ={customMessage}
+                                        onchange={handleOnChange}>
+                        </lightning-input>
+                        <br/><br/>
+
+                    custom message is ....: {customMessage}
+                    </div>
+                    
+    </lightning-card>
+</template>

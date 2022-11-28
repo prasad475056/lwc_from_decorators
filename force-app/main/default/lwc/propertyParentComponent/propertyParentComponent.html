@@ -1,0 +1,19 @@
+<template>
+    <c-property-child-component child-component-property = {parentComponentProperty}></c-property-child-component>
+    <div>
+        <lightning-button label="set New Value"
+                         variant="brand"
+                          onclick={handleOnClick}>
+        </lightning-button>
+    </div> <br/><br/>
+    <div>
+        <lightning-button label="show custom message"
+                          variant="brand"
+                          onclick={callCustomMessage}>
+        </lightning-button>
+        <lightning-button label="show custom Details"
+                          variant="brand"
+                          onclick={showCustomerDetails}>
+        </lightning-button>
+    </div>
+</template>
